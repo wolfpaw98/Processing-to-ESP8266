@@ -10,7 +10,7 @@
 #include <ESP8266WiFi.h>
 #include <WiFiUdp.h>
 
-int ledPin[] = { 15, 12, 13 }; // initialize output pins
+int ledPin[] = { 15, 12, 13 }; // initialize rgb output pins
 int rgbValue[] = { 0, 0, 0 }; // initialize rgb values
 int pinCount = 3;
 
